@@ -236,7 +236,7 @@ class AccueilForfaitsVoyagesState extends State<AccueilForfaitsVoyages> {
             body:
               ListView.builder(
                   padding: const EdgeInsets.only(bottom:32),
-                  itemCount: snapshot.data?.length,
+                  itemCount: snapshot.data!.length,
                     itemBuilder: (context, index) {
                       return
                         Container(
